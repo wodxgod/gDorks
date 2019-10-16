@@ -15,9 +15,10 @@ Option | Description
 --proxyscrape | Use proxies from [ProxyScrape](https://proxyscrape.com/)
 
 # Todo
-- [ ] Fix request blocking **\[CRITICAL!\]**
+- [ ] Fix request blocking **CRITICAL!**
 - [ ] Option for selecting which vulnerability you want to scan for
 - [ ] More detailed [README.md](README.md) with installation guide etc.
+- [ ] Add screenshot showcase in [README.md](README.md)
 
 # Author
 - **WodX**

@@ -20,6 +20,13 @@ Option | Description
 - [ ] More detailed [README.md](README.md) with installation guide etc.
 - [ ] Add screenshot showcase in [README.md](README.md).
 
+# Screenshot
+<p align="center">
+    <img src="https://raw.githubusercontent.com/WodxTV/gDorks/master/screenshot.png">
+</p>
+
+_Screenshot will be replaced when everything gets to work properly_
+
 # Author
 - **WodX**
     - [Github](https://github.com/WodXTV)

@@ -5,8 +5,8 @@
 <p align="center">Scrape vulnerable website URLs using Google dorks.</p>
 
 # Options
-Argument | Description
----------|------------
+Option | Description
+-------|------------
 -h, --help | Show list of options
 -s, --scrape | Start scraping
 -d, --dork | Add an external dork string

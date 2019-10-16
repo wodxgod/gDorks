@@ -4,8 +4,6 @@
 <h1 align="center">gDorks</h1>
 <p align="center">Scrape vulnerable website URLs using Google dorks.</p>
 
-**gDorks** is a tool used to scrape a bunch of vulnerable website URLs using Google dork payloads in no time.
-
 # Todo
 - [ ] Fix request blocking
 

@@ -258,7 +258,7 @@ def main():
         payload_sqli = open('payloads/sql-injection.txt').readlines()
         payload_xss = open('payloads/xss.txt').readlines()
     except:
-        error(f'Missing file @ {os.getcwd()}\\payloads')
+        error(f'Missing files @\'{os.getcwd()}\\payloads\'')
 
     # create directory name for cached vulnerable website URLs
     dir_name = f'{os.getcwd()}\\output\\{time.strftime("%d-%m-%Y %H:%M%S")}'

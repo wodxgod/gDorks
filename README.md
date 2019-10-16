@@ -26,6 +26,11 @@ Option | Description
 
 _Screenshot will be replaced when everything gets to work properly_
 
+# Usage
+```bash
+$ python gdorks.py [options]
+```
+
 # Author
 - **WodX**
     - [Github](https://github.com/WodXTV)

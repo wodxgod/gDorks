@@ -146,7 +146,7 @@ def main():
         print()
         print('  Proxies:')
         print('    -p, --proxies       Send requests through proxies')
-        print('    --proxyscrape       Use proxies from ProxyScrape')
+        print('    --proxyscrape       Use proxies from ProxyScrape.com')
         exit()
 
     proxy_file_index = -1
@@ -169,9 +169,9 @@ def main():
                                 if proxy:
                                     proxies.append(proxy)
 
-                            info(f'{len(proxies)} proxies scraped\n')
+                            info(f'{len(proxies)} proxies scraped from ProxyScrape.com\n')
                         except Exception as e:
-                            error(f'An error occurred while downloading proxies from ProxyScrape: {e}')
+                            error(f'An error occurred while downloading proxies from ProxyScrape.com: {e}')
                             exit()
 
                     else:

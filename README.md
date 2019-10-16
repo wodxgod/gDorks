@@ -8,8 +8,8 @@
 Option | Description
 -------|------------
 -h, --help | Show list of options
--s, --scrape | Start scraping
--d, --dork | Add an external Dorks string
+-s, --scrape | Scrape vulnerable URLs
+-d, --dork | Add an external Dorks string. Example: 'site:example.com'
 -t, --timeout | Set HTTP request timeout
 -p, --proxies | Send HTTP requests through proxies
 --proxyscrape | Use proxies from [ProxyScrape](https://proxyscrape.com/)

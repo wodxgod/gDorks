@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/WodxTV/gDorks/master/logo.PNG">
+    <img src="https://raw.githubusercontent.com/WodxTV/gDorks/master/images/logo.png">
 </p>
 <h1 align="center">gDorks [beta]</h1>
 <p align="center">Scrape vulnerable website URLs using Google Dorks.</p>
@@ -22,7 +22,7 @@ Option | Description
 
 # Screenshot
 <p align="center">
-    <img src="https://raw.githubusercontent.com/WodxTV/gDorks/master/screenshot.png">
+    <img src="https://raw.githubusercontent.com/WodxTV/gDorks/master/images/screenshot.png">
 </p>
 
 _Screenshot will be replaced when everything gets to work properly_

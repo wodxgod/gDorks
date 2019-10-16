@@ -393,7 +393,7 @@ def main():
         for url in urls:
             file.write(url + '\n')
 
-    info(f'Scraping finished! Thank you for using {Fore.BLUE}g{Fore.RED}d{Fore.YELLOW}o{Fore.BLUE}r{Fore.GREEN}k{Fore.RED}s{Fore.RESET}')
+    info(f'Scraping finished! Thank you for using {Fore.BLUE}g{Fore.RED}d{Fore.YELLOW}o{Fore.BLUE}r{Fore.GREEN}k{Fore.RED}s')
 
 if __name__ == '__main__':
     try:

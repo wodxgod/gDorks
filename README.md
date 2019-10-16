@@ -2,14 +2,14 @@
     <img src="https://raw.githubusercontent.com/WodxTV/gDorks/master/logo.PNG">
 </p>
 <h1 align="center">gDorks [beta]</h1>
-<p align="center">Scrape vulnerable website URLs using Google dorks.</p>
+<p align="center">Scrape vulnerable website URLs using Google Dorks.</p>
 
 # Options
 Option | Description
 -------|------------
 -h, --help | Show list of options
 -s, --scrape | Start scraping
--d, --dork | Add an external dork string
+-d, --dork | Add an external Dorks string
 -t, --timeout | Set HTTP request timeout
 -p, --proxies | Send HTTP requests through proxies
 --proxyscrape | Use proxies from [ProxyScrape](https://proxyscrape.com/)

@@ -11,6 +11,8 @@ import os
 
 from colorama import Fore, init
 
+__version__ = '1.0.0'
+
 # globals
 use_proxies = False
 proxies = None
@@ -18,11 +20,11 @@ scrape = False
 timeout = None
 
 google_banner = r''' {2}_____             {5}_     
-{2}|   __|{3}___ {4}___ {2}___{5}| |{3}___  {0}%s{1}v1.0.0{0}%s
+{2}|   __|{3}___ {4}___ {2}___{5}| |{3}___  {0}%s{1}v%s{0}%s
 {2}|  |  |{3} . |{4} . |{2} . |{5} |{3} -_|
 {2}|_____|{3}___|{4}___|{2}_  |{5}_|{3}___|
               {2}|___|       {0}by WodX
-    {6}'''.format(Fore.WHITE, Fore.LIGHTMAGENTA_EX, Fore.BLUE, Fore.RED, Fore.YELLOW, Fore.GREEN, Fore.RESET) % ('{', '}')
+    {6}'''.format(Fore.WHITE, Fore.LIGHTMAGENTA_EX, Fore.BLUE, Fore.RED, Fore.YELLOW, Fore.GREEN, Fore.RESET) % ('{', __version__, '}')
 
 def error(message):
     print(f'{_timestamp()} {Fore.RESET}[{Fore.RED}ERROR{Fore.RESET}] {message}')

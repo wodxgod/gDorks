@@ -249,13 +249,16 @@ def main():
 
     # load payloads
     info(f'Loading {Fore.BLUE}G{Fore.RED}o{Fore.YELLOW}o{Fore.BLUE}g{Fore.GREEN}l{Fore.RED}e {Fore.RESET}dorking payloads (file exposure, login page, password exposure, phpinfo(), SQL error exposure, SQL injection, cross-site scripting (XSS))')
-    payload_file = open('payloads/file-exposure.txt').readlines()
-    payload_login = open('payloads/login-pages.txt').readlines()
-    payload_password = open('payloads/password-exposure.txt').readlines()
-    payload_phpinfo = open('payloads/phpinfo.txt').readlines()
-    payload_sqle = open('payloads/sql-errors.txt').readlines()
-    payload_sqli = open('payloads/sql-injection.txt').readlines()
-    payload_xss = open('payloads/xss.txt').readlines()
+    try:
+        payload_file = open('payloads/file-exposure.txt').readlines()
+        payload_login = open('payloads/login-pages.txt').readlines()
+        payload_password = open('payloads/password-exposure.txt').readlines()
+        payload_phpinfo = open('payloads/phpinfo.txt').readlines()
+        payload_sqle = open('payloads/sql-errors.txt').readlines()
+        payload_sqli = open('payloads/sql-injection.txt').readlines()
+        payload_xss = open('payloads/xss.txt').readlines()
+    except:
+        error(f'Missing file @ {os.getcwd()}\\payloads')
 
     # create directory name for cached vulnerable website URLs
     dir_name = f'{os.getcwd()}\\output\\{time.strftime("%d-%m-%Y %H:%M%S")}'

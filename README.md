@@ -16,6 +16,7 @@ Option | Description
 
 # Todo
 - [ ] Fix request blocking
+- [ ] Option for selecting which vulnerability you want to scan for
 
 # Author
 - **WodX**

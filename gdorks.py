@@ -171,6 +171,7 @@ def main():
 
                             info(f'{len(proxies)} proxies scraped from ProxyScrape.com')
 
+                            # save proxies
                             _time = time.strftime("%d-%m-%Y %H.%M.%S")
                             file_name = f'{os.getcwd()}\\proxies\\proxyscrape {_time}\\proxies.txt'
                             
@@ -185,6 +186,7 @@ def main():
                                     file.write(proxy)
                                     if i < len(proxies) - 1:
                                         file.write('\n')
+
                             info(f'Proxies cached in file @ \'{file_name}\'')
                             print()
 

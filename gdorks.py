@@ -181,8 +181,10 @@ def main():
                                 os.mkdir(f'{os.getcwd()}\\proxies\\proxyscrape {_time}')
                             
                             with open(file_name, 'w') as file:
-                                for proxy in proxies:
-                                    file.write(proxy + '\n')
+                                for i, proxy in enumerate(proxies):
+                                    file.write(proxy)
+                                    if i < len(proxies) - 1:
+                                        file.write('\n')
                             info(f'Proxies cached in file @ \'{file_name}\'')
                             print()
 

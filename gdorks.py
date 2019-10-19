@@ -169,7 +169,23 @@ def main():
                                 if proxy:
                                     proxies.append(proxy)
 
-                            info(f'{len(proxies)} proxies scraped from ProxyScrape.com\n')
+                            info(f'{len(proxies)} proxies scraped from ProxyScrape.com')
+
+                            _time = time.strftime("%d-%m-%Y %H.%M.%S")
+                            file_name = f'{os.getcwd()}\\proxies\\proxyscrape {_time}\\proxies.txt'
+                            
+                            if not os.path.exists(f'{os.getcwd()}\\proxies'):
+                                os.mkdir(f'{os.getcwd()}\\proxies')
+
+                            if not os.path.exists(f'{os.getcwd()}\\proxies\\proxyscrape {_time}'):
+                                os.mkdir(f'{os.getcwd()}\\proxies\\proxyscrape {_time}')
+                            
+                            with open(file_name, 'w') as file:
+                                for proxy in proxies:
+                                    file.write(proxy + '\n')
+                            info(f'Proxies cached in file @ \'{file_name}\'')
+                            print()
+
                         except Exception as e:
                             error(f'An error occurred while downloading proxies from ProxyScrape.com: {e}')
                             exit()
@@ -261,7 +277,7 @@ def main():
         error(f'Missing files @ \'{os.getcwd()}\\payloads\'')
 
     # create directory name for cached vulnerable website URLs
-    dir_name = f'{os.getcwd()}\\output\\{time.strftime("%d-%m-%Y %H:%M%S")}'
+    dir_name = f'{os.getcwd()}\\output\\{time.strftime("%d-%m-%Y %H.%M.%S")}'
 
     # file exposure scrape
     info(f'Scraping file exposing sites - {len(payload_file)} payloads(s) loaded')

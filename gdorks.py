@@ -11,7 +11,7 @@ import os
 
 from colorama import Fore, init
 
-__version__ = '1.0.0'
+__version__ = '1.0.8'
 
 # globals
 use_proxies = False

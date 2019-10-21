@@ -18,7 +18,7 @@ Option | Description
 - [ ] Fix request blocking. **CRITICAL!**
 - [ ] Option for selecting which vulnerability you want to scan for.
 - [ ] More detailed [README.md](README.md) with installation guide etc.
-- [ ] Less verbose option
+- [ ] Less verbose option.
 
 # Screenshot
 <p align="center">

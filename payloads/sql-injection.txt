@@ -1446,7 +1446,6 @@ profiles/profile.php?profileid=
 event.php?id=
 gallery.php?id=
 category.php?CID=
-
 corporate/newsreleases_more.php?id=
 print.php?id=
 modules/forum/index.php?topic_id=
